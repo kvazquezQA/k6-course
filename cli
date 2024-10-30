@@ -1,0 +1,7 @@
+k6 run script.js --vus 1 --duration 10s
+
+k6 run script.js --vus 1 --duration 10s  --iterations 1
+
+k6 run script.js --insecure-skip-tls-verify
+
+k6 run script.js --sumary-export=result.json
